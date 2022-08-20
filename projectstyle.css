@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/*
+   Stylesheet for restaurant site and menu
+   Author: Joe Cooper
+   Date: 04/20/2022
+   
+   Filename: projectstyle.css
+
+*/
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+}
+
+.pic_data {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+}
+
+.pic_data .Banner {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+nav {
+	width: 100%;
+	background-color: black;
+	height: 200px;
+	overflow: hidden;
+	line-height: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+body {
+	background-image: url(images/dining.jpg);
+	background-position: fixed;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+	}
+
+.main {
+	width: 100%;
+}
+
+.article {
+	background-color: black;
+	margin: 150px 400px 200px;
+	border: solid white 10px;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 60px;
+	font-style: oblique;
+	color: red;
+	margin-top: 0px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+	
+
+a {
+	text-decoration: none;
+	color: black;
+	text-align: right;
+}
+
+ul {
+	margin: 0px;
+	position: absolute;
+	top: 15px;
+	right: 40px;
+}
+
+ul li {
+	font-size: 20px;
+	float: left;
+	padding: 0px 10px;
+	list-style: none;
+}
+
+p {
+	position: center;
+	text-align: center;
+	color: white;
+}
+
+.menu {
+	box-sizing: content-box;
+	min-height: 200px;
+	width: 450px;
+	border: white;
+	padding: none;
+	display: flex;
+}
+
+table {
+	box-sizing: content-box;
+	width: 30%;
+	height: 100%;
+	font-size: 20px;
+	background-color: green;
+	color: white;
+	padding-bottom: 200px;
+	text-align: center;
+	justify-content: center;
+	overflow-y: scroll;
+}
+
+table img {
+	height: 300px;
+	width: 100%;
+	display: block;
+}
+
+thead {
+	background-color: black;
+	color: white;
+}
+
+.drinks {
+	box-sizing: content-box;
+	min-height: 200px;
+	width: 450px;
+	border: white;
+	padding: none;
+	display: flex;
+}
+
+.centered {
+	box-sizing: content-box;
+	font-size: 30px;
+	border: solid white;
+	background-color: black;
+	padding: 3px;
+	position: absolute;
+	top: 5%;
+	margin-left: 180px;
+	color: white;
+	justify-content: stretch;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+}
+
+.reviews {
+	box-sizing: content-box;
+	height: 200px;
+	width: 410px;
+	padding: none;
+	margin: 50px;
+	display: flex;
+}
+
+.map {
+	box-sizing: content-box;
+	height: 200px;
+	width: 490px;
+	margin: none;
+	display: flex;
+}

@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Unignore website related files
+!*.js
+!*.html
+!*.css
+!.gitignore
+!.README.md
